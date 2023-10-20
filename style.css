@@ -1,0 +1,477 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+html{
+    background-image: url(img/Gradient.png);
+    background-repeat: repeat-x;
+}
+
+/* index */
+
+.navbar {
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.navbar ul li a:hover {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    transition: all ease-in-out;
+    border-radius: 8px;
+}
+
+.navbar h3 {
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+.welcome {
+    display: block;
+    color: #000;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.pembuka {
+    font-size: 50px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.ctt1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ctt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctt2 a {
+    background-color: grey;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    width: 320px;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 250px;
+}
+
+.ctt2 a:hover {
+    background-color: gainsboro;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+    border-radius: 8px;
+}
+
+/* About */
+
+.About {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.Biodata {
+    font-size: 25px;
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+
+.Biodata1 {
+    display: block;
+    width: 400px;
+    margin: 20px;
+}
+
+.Biodata1 img {
+    display: flex;
+}
+
+.Kalimat {
+    color: #fff;
+    display: block;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    width: 400px;
+    font-size: 19px;
+}
+
+.BiodataDiri {
+    line-height: 60px;
+    display: flex;
+}
+
+.JenisBiodata {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    align-self: center;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.DeskripsiBiodata {
+    display: block;
+    align-items: normal;
+    justify-content: left;
+    text-align: left;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.HOBI {
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 80%;
+    display: block;
+    align-self: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Hobi {
+    display: flex;
+}
+
+.Hobi1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+}
+
+.Hobi2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 50px;
+    text-align: center;
+}
+
+.Hobi3 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+}
+
+.Spotify {
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+.SpotifyPlaylist {
+    display: flex;
+    justify-content: center;
+
+}
+
+.SpotifyPlaylist iframe {
+    padding: 10px;
+    padding-top: 25px;
+    border-radius: 10px;
+    width: 40%;
+    height: 352px;
+}
+
+/* Skills */
+
+.header1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    margin-top: 45px;
+}
+
+.Skill {
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 48px;
+    margin-bottom: 100px;
+}
+
+.Catur {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.Catur h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.Catur p {
+    font-size: 20px;
+}
+
+.Catur img {
+    width: 250px;
+}
+
+.CaturText {
+    display: block;
+    padding-left: 20px;
+}
+
+.Coding {
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+}
+
+.CodingText {
+    padding-right: 20px;
+    display: block;
+    text-align: right;
+}
+
+.p2{
+    display: none;
+}
+
+.Coding h3 {
+    font-size: 30px;
+}
+
+.Coding p {
+    font-size: 20px;
+}
+
+.Karate {
+    padding-top: 20px;
+    display: flex;
+}
+
+.KarateText {
+    display: block;
+    padding-left: 20px;
+}
+
+.Karate h3 {
+    font-size: 30px;
+}
+
+.Karate p {
+    font-size: 20px;
+}
+
+/* Gallery */
+
+.GalleryHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Bungkusan {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Gallery {
+    display: block;
+    align-self: center;
+    background-color: gainsboro;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.Gallery h3 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Gallery p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.GalleryTop {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.Gallery1 {
+    padding: 25px;
+}
+
+.Gallery1 img {
+    width: 500px;
+}
+
+.Gallery2 {
+    padding: 25px;
+}
+
+.GalleryBottom {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-bottom: 100px;
+}
+
+.Gallery3 {
+    padding: 25px;
+}
+
+.Gallery4 {
+    padding: 25px;
+}
+
+/* Contact */
+
+.Contact {
+    padding: 50px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    background-color: gainsboro;
+    max-width: fit-content;
+    height: 75vh;
+    padding-bottom: 100px;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.Contact h3 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.Contact h4 {
+    display: none;
+}
+
+.Contact iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+    border-radius: 10%;
+}
+
+.ContactMenu {
+    background-color: gray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+.ContactMenu img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    line-height: 500px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.ContactMenu p a img:hover {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 100px;
+    transition: 0.5s ease;
+}
+
+.ContactMenu p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+/* footer */
+
+.footer {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
